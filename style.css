@@ -100,3 +100,36 @@ a:hover {
     margin: 12px;
     border: 2px solid slategray;
 }
+
+.contenedor2{
+    position: relative; /* Punto de referencia para hijos posicionados */
+    height: 150px;
+    background-color: chartreuse;
+    margin-bottom: 20px;
+}
+
+.caja-posicionada{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #f1c40f;
+    color: black;
+    padding: 10px;
+    width: 150px;
+}
+
+.contenedor3{
+    display: flex; /* Activamos Flexbox */
+    justify-content: space-between; /* Distribuye espacio entre los elementos */
+    gap: 15px;
+    flex-direction: row;
+    background-color: burlywood;
+}
+
+.caja-flex{
+    background-color: #1abc9c;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    width: 30%; /* DImensiones iniciales */
+}
