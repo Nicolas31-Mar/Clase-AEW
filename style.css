@@ -89,3 +89,14 @@ a:hover {
     margin: 12px;
     border: 2px solid#333;
 }
+
+.enlinea-bloque{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    color: azure;
+    background-color: antiquewhite;
+    padding: 12px;
+    margin: 12px;
+    border: 2px solid slategray;
+}
